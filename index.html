@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Probabilidad</title>
+    <style>
+        @media only screen and(max-width:600px){ 
+            body{
+            width:100;
+            }
+            .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+           
+        }      
+            }
+        @media only screen and(min-width:601px){
+            body{
+            max-width:600px;
+            margin:0 auto;
+            }
+            .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }      
+        }  
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            margin-bottom: auto;
+            background-color: #3498db; /* Azul */
+            color: black;
+            text-align: center;
+            padding-top: 50px;
+        }
+        #p1{
+            font-size:30px;
+           
+        }
+        #p2{
+            font-size:40px;
+           
+        }
+        #h1{
+             font-size:50px;
+        }
+        .container{
+             background: #5BBBC4;
+            border: 3px solid ;
+            padding: 20px;
+            width: 850px;
+            margin: 0 auto; 
+        }
+        .calculadora{
+            background: #5BBBC4;
+            border: 3px solid ;
+            padding: 20px;
+            width: 850px;
+            margin: 0 auto; 
+        }
+        .conclusion{
+            background: #5BBBC4;
+            border: 3px solid ;
+            padding: 20px;
+            width: 850px;
+            margin: 0 auto; 
+        }
+        .contacto{
+            background-color: rgba(110, 87, 225, 0.196);
+            padding: 20px;
+            text-align: center;
+            width: 850px;
+            margin: 0 auto; 
+        }
+        .contacto p{
+        margin-bottom: 5px;
+        }
+        .cuadro1{
+             border: 1px solid ;
+            padding: 20px;
+            width: 800px;
+            margin: 0 auto;
+        }
+         .cuadro{
+            border: 1px solid #00ffff;
+            padding: 20px;
+            width: 700px;
+            margin: 0 auto;
+        }
+        #i1{
+
+            padding: 20px;
+            width: 700px;
+            margin: 0 auto;
+        }
+        .icon{
+            width: 50px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+   <div class="calculadora">
+  <h1 id="h1">CALCULO DE PROBABILIDADES (CLASICA,FRECUENTISTA Y SUBJETIVA)</h1>
+       <br>
+       <div class="cuadro" >
+       <h2 id="p2">OBJETIVO</h2>
+       <p id="p1">En la realizacion de este preoyecto utilizamos hojas de excel para argumentar problemas y posiblemente obtener su probabilidad utilizando tres tipos de enfoque(clasico, subjetivo y frecuentista).</p>
+       <br>
+       </div>
+       <div class="cuadro" >
+       <h2 id="p2">CLASICA</h2>
+    <p id="p1">En una fiesta infantil hay 8 niños de 5 años, 12 de 8, 7 de 6 y 5 de 10. </p> 
+       <p id="p1">A) ¿Cuál es la probabilida de elegir a un niño de cada edad?</p>
+        <img src="img/t1.png" alt="tabla de edades" >
+        <img src="img/d1.png" alt="diagrama de edades"  >
+       <br>
+        <img src="img/p1.png" alt="probabilidad"  ><br>
+        <img src="img/g1.png" alt="grafica"  >
+       <br><br><br><br>
+       <p id="p1">B) ¿Cuál es la probabilidad de elegir a un niño al azar?</p>
+       <img src="img/t2.png" alt="tabla"  ><br>
+        <img src="img/g2.png" alt="grafica"  >
+       </div>
+        <div class="cuadro" >
+       <h1>FRECUENTISTA</h1>
+       <p id="p1">Supongamos que estas interesad@ en determinar la probabilidad de que llueva en una ciudad determinada durante el mes de marzo</p>
+       <img src="img/t3.png" alt="tabla"  ><br>
+        <img src="img/g3.png" alt="grafica"  ><br>
+       <img src="img/d3.png" alt="diagrama"  >
+       </div>
+        <div class="cuadro" >
+       <h1>SUBJETIVA</h1>
+       <p id="p1">Vas a tomar un vuelo y estás evaluando la probabilidad subjetiva de que el vuelo se retrase. </p>
+       <p id="p1">Considera factores como la aerolínea, la temporada, la ruta del vuelo,  para asignar esta probabilidad</p>
+       <p id="p1">A) ¿Cuál es la probabilidad de que el vuelo se retrase?</p><p id="p1">2.4</p>
+       <img src="img/t4.png" alt="tabla"  ><br>
+       <img src="img/d4.png" alt="diagrama"  ><br>
+        <img src="img/g4.png" alt="grafica"  >
+       </div>
+          
+ </div>
+    
+    <div class="container">
+    <h1 id="h1">DATOS DE LAS ENCUESTAS REALIZADAS A EMPRESAS</h1>
+        <br>
+        <p id="p1">Al realizar una serie de preguntas a empresas que solicitan trabajadores decidimos adentrarnos mas al tema de horarios que manejan las mismas, las edades que son mas requeridas, el salario que ofrece cada una de las empresas entrevistadas, las cuales realizamos tablas con graficos en las que mostramos la informacion antes mencionada.</p>
+        <br><br>
+        <h1 id="h1">HORARIOS</h1>
+        <p id="p1">Primero mostramos los datos recabados acerca de los horarios que tienen las empresas y los almacenamos en una tabla, la cual se divide en clase,valor medio(vm),frecuencia(F),frecuencia relativa(fr),frecuencia relativa acumulada(Fr), al igual que agregamos la media,mediana y moda </p>
+         <img src="img/horario.jpeg" alt="tabla de horarios" id="i1" >
+        <br><br><br>
+        <h1 id="h1">EDADES</h1>
+        <p id="p1">En esta siguiente tabla almacenamos las edades que requieren las empresas para la contratacion del personal la cual se divide en clase,valor medio(vm),frecuencia(F),frecuencia relativa(fr),frecuencia relativa acumulada(Fr), al igual que agregamos la media,mediana y moda </p>
+        <img src="img/edades.jpeg" alt="tabla de edades" id="i1">
+        <br><br>
+        <h1 id="h1">SALARIOS</h1>
+        <p id="p1">En esta tabla obtuvimos los salarios que pagan las empresas  y cuantas de ellas son las que pagan mas y cuales menos, la cual se divide en clase,valor medio(vm),frecuencia(F),frecuencia relativa(fr),frecuencia relativa acumulada(Fr), al igual queagregamos la media,mediana y moda </p>
+        <img src="img/salario.jpeg" alt="tabla de salario" id="i1">
+    </div>
+    <div class="conclusion">
+        <h1 id="h1">CONCLUSION</h1>
+        <p id="p1">Despues de realizar investigaciones y trabajos en los cuales utilizamos la probabilidad y estadistica nos damos cuenta que es algo que usamos dia a dia, no se aplica de tal forma pero se puede aplicar de diferentes maneras en nuestra vida.
+        </p>
+    </div>
+   
+    <div class="container">
+        <div class="cuadro" >
+        <h1 id="h1">Probabilidad(moda mediana moda)</h1>
+            <p id="p1">La probabilidad y la estadística descriptiva analizan datos mediante medidas clave: la media (promedio), la mediana (valor central) y la moda (valor más frecuente) resumen el conjunto de datos; los cuartiles, deciles y percentiles muestran la distribución dividiendo los datos en partes iguales; y el rango, la varianza, la desviación estándar y la desviación media indican la variabilidad de los datos. Estas medidas permiten comprender y resumir la distribución y dispersión de los datos.</p>
+        </div>
+            <br><br>
+            <div class="cuadro" >
+            <h1 id="h1">SALARIO</h1>
+            <p id="p1">Se tiene una tabla de datos sobre salarios con intervalos de clases, valores medios, frecuencias absolutas y relativas, productos de valores medios y frecuencias, y cálculos de desviaciones respecto a la media. Además, se incluyen gráficos de barras que muestran la distribución de salarios y las medidas de tendencia central (media, mediana, moda). También presenta cálculos estadísticos como medidas de tendencia central y dispersión (rango, varianza y desviación media). Estos elementos ayudan a analizar la distribución y variabilidad de los salarios. </p>
+             <img src="img/3t1.png" alt="tabla de probabilidades" id="i1" >
+             <img src="img/3g1.png" alt="grafica de probabilidades" id="i1" >
+             <img src="img/3r1.png" alt="resultados de probabilidades" id="i1" >
+            </div>
+            <br><br><br>
+            <div class="cuadro" >
+            <h1 id="h1">HORARIOS</h1>
+            <p id="p1">Se tiene una tabla de clases sobre horarios con intervalos de clases, valores medios, frecuencias absolutas y relativas, productos de valores medios y frecuencias, y cálculos de desviaciones respecto a la media. Además, se incluyen gráficos de barras que muestran la distribución de salarios y las medidas de tendencia central (media, mediana, moda). También presenta cálculos estadísticos como medidas de tendencia central y dispersión (rango, varianza y desviación media). Ademas se incluye el calculo de cuartiles, deciles, y perciles .</p>
+            <img src="img/3t2.png" alt="tabla de probabilidades" id="i1" >
+             <img src="img/3g2.png" alt="grafica de probabilidades" id="i1" >
+             <img src="img/3r2.png" alt="resultados de probabilidades" id="i1" >
+            </div>
+            <br><br>
+            <div class="cuadro" >
+            <h1 id="h1">EDADES</h1>
+            <p id="p1">Se usan las medidas de tendencia central(media,mediana,moda), para el calculo de probabilidades y se pueda mejor entender la tabla y los valores que se quieren conocer, al igual se agregaron graficas para su mejor vision,También presenta cálculos estadísticos como medidas de tendencia central y dispersión (rango, varianza y desviación media). Ademas se incluyen el calculo de cuartiles, deciles, y perciles . Estos elementos ayudan a analizar la distribución y variabilidad de los edades.  </p>
+            <img src="img/3t3.png" alt="tabla de probabilidades" id="i1" >
+             <img src="img/3g3.png" alt="grafica de probabilidades" id="i1" >
+             <img src="img/3r3.png" alt="resultados de probabilidades" id="i1" >
+            </div>
+        </div>
+        <div class="conclusion">
+            <h1 id="h1">CONCLUSION</h1>
+            <p id="p1">Para este tercer parcial lo que se realizó y agrego a la página web que se había elaborado anteriormente fueron las tres medidas de tendencia central que fueron los cuartiles, deciles y percentiles, así como también se cálculo el rango, la desviación media y la varianza, todo esto se sacó con la información que se había recaudado anteriormente en las encuestas realizadas a empresas que solicitaban trabajadores, de la misma manera en este parcial se generó el código QR de al página web.
+            </p>
+        </div>
+        <div class="contacto container">        <!-- Pie de página con datos del autor -->
+        <p>© 2024 Equipo Fantasma </p>
+        <p>Contacto: equipofantasma@gmail.com</p>
+        <p>Visita mi <a href="https://equipofantasma.com">sitio web</a></p>
+        
+        <!-- Redes sociales -->
+        <div>
+            <a href="https://twitter.com/ejemplo" target="_blank" rel="noopener noreferrer">
+                <img src="img/twiter.png" alt="Twitter" class="icon">
+            </a>
+            <a href="https://facebook.com/ejemplo" target="_blank" rel="noopener noreferrer">
+                <img src="img/faccebook.jpg" alt="Facebook" class="icon">
+            </a>
+            </a>
+        </div>
+        
+        <!-- Información adicional -->
+        <p>Hecho con ❤️ y HTML</p>
+    </div>
+
+</body>
+</html>
